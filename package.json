@@ -1,0 +1,42 @@
+{
+  "name": "hubot-mysql-chatops",
+  "description": "Hubot ChatOps scripts for MySQL",
+  "version": "1.0.0",
+  "author": "samlambert <sam.lambert@github.com>",
+  "license": "MIT",
+
+  "keywords": ["hubot","MySQL","ChatOps","queries","profile","explain"],
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/samlambert/hubot-mysql-chatops.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/samlambert/hubot-mysql-chatops/issues"
+  },
+
+  "dependencies": {
+    "coffee-script": "~1.6.3",
+    "cli-table": "~0.2.0",
+    "mysql": "~0.9.5",
+    "validator": "3.1.0"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*",
+    "grunt-mocha-test": "~0.7.0",
+    "grunt-release": "~0.6.0",
+    "matchdep": "~0.1.2",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "grunt test"
+  }
+}
